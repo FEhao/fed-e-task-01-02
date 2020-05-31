@@ -106,7 +106,7 @@ let averageDollarValue = fp.flowRight(_average, fp.map(fp.prop('dollar_value')))
 **答:**
 
 ````js
-let santizeNames = fp.flowRight(fp.map(fp.flowRight(fp.toLower, _underscore)))
+let sanitizeNames = fp.flowRight(fp.map(fp.flowRight(fp.toLower, _underscore)))
 ````
 
 

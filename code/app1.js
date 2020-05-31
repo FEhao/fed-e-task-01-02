@@ -65,5 +65,5 @@ let averageDollarValue = function (cars) {
 averageDollarValue = fp.flowRight(_average, fp.map(fp.prop('dollar_value')));
 
 let _underscore = fp.replace(/\W+/g, '_')
-let santizeNames = fp.flowRight(fp.map(fp.flowRight(fp.toLower, _underscore)))
+let sanitizeNames = fp.flowRight(fp.map(fp.flowRight(fp.toLower, _underscore)))
 
