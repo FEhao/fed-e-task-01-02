@@ -69,7 +69,7 @@ oa = null; // a属性的那个对象现在也是零引用了
 
 ## 代码题1
 
-> 详见app1.js
+> 详见code/app1.js
 
 #### 1. 使用函数组合 `fp.flowRight()` 重新实现下面这个函数
 
@@ -113,7 +113,7 @@ let santizeNames = fp.flowRight(fp.map(fp.flowRight(fp.toLower, _underscore)))
 
 ## 代码题2
 
-> 详见app2.js
+> 详见code/app2.js
 
 #### 1. 使用 `fp.add(x, y)` 和 `fp.map(f, x)` 创建一个能让 functor 里的值增加的函数 `ex1`
 
